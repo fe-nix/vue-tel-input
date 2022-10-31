@@ -1,5 +1,5 @@
 import utils, { defaultOptions } from './utils';
-import VueTelInput from './components/vue-tel-input.vue';
+import VueTelInput from './components/iw-vue-tel-input.vue';
 
 export function install(Vue, customOptions = {}) {
   if (install.installed) return;
@@ -29,7 +29,7 @@ export function install(Vue, customOptions = {}) {
     ...otherCustomOptions,
   };
 
-  Vue.component('vue-tel-input', VueTelInput);
+  Vue.component('iw-vue-tel-input', VueTelInput);
 }
 
 export { VueTelInput };

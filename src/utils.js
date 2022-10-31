@@ -64,7 +64,7 @@ export const allProps = [
     name: 'disabled',
     default: false,
     type: Boolean,
-    description: 'Disable <code>vue-tel-input</code>, including the input & flag dropdown',
+    description: 'Disable <code>iw-vue-tel-input</code>, including the input & flag dropdown',
     inDemo: false,
   },
   {

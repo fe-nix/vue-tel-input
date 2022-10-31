@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import { shallowMount } from '@vue/test-utils';
-import VueTelInput from './vue-tel-input.vue';
+import VueTelInput from './iw-vue-tel-input.vue';
 import * as utils from '../utils';
 
-describe('vue-tel-input', () => {
+describe('iw-vue-tel-input', () => {
   beforeEach(() => {
     jest.spyOn(utils, 'getCountry').mockImplementation(() => Promise.resolve('au'));
   });
