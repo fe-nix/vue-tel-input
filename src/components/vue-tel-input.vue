@@ -74,6 +74,7 @@
       :disabled="disabled"
       :id="inputOptions.id"
       :maxlength="inputOptions.maxlength"
+      :minlength="inputOptions.minlength"
       :name="inputOptions.name"
       :placeholder="parsedPlaceholder"
       :readonly="inputOptions.readonly"
